@@ -1,36 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Our Love Story</title>
-  <link rel="stylesheet" href="style.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Our Love Story</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="landing">
-  <nav>
-    <ul>
-      <li><a href="index.html" class="active">Hi Love!</a></li>
-      <li><a href="timeline.html">Timeline</a></li>
-      <li><a href="reasons.html">10 Reasons</a></li>
-      <li><a href="letters.html">Letters to You</a></li>
-      <li><a href="fun.html">Fun & Quiz</a></li>
-    </ul>
-  </nav>
-  <div class="content center">
-    <h1>Hi Love!</h1>
-    <p class="subtitle">Welcome to Our Love Story</p>
-    <blockquote>
-      <span>“You are my today and all of my tomorrows.”</span>
-      <br/>
-      <small>- Leo Christopher</small>
-    </blockquote>
-    <img src="img1.jpg" alt="A tender romantic moment" class="landing-photo"/>
-  </div>
-  <audio id="bg-music" src="soft-romantic.mp3" autoplay loop controls></audio>
-  <script>
-    // Soft fading animated background
-    document.body.classList.add('animated-bg');
-  </script>
+<body>
+    <div class="container">
+        <h1>Our Love Story</h1>
+        <div class="slide">
+            <h2>How We Met</h2>
+            <img src="1.jpeg" alt="How We Met">
+            <p>It all started with a smile — and now here we are.</p>
+        </div>
+        <div class="slide">
+            <h2>Our First Date</h2>
+            <img src="2.jpeg" alt="First Date">
+            <p>That magical evening when time stood still for us.</p>
+        </div>
+        <div class="slide">
+            <h2>Our Adventures</h2>
+            <img src="3.jpeg" alt="Adventures">
+            <p>Every place with you feels like home.</p>
+        </div>
+        <div class="slide">
+            <h2>Favorite Memories</h2>
+            <img src="4.jpeg" alt="Memories">
+            <p>From silly laughs to deep talks, I cherish them all.</p>
+        </div>
+        <div class="slide">
+            <h2>You Are My Everything</h2>
+            <img src="5.jpeg" alt="You are my everything">
+            <p>"You are my everything."</p>
+        </div>
+        <audio controls autoplay loop>
+            <source src="audio.m4a" type="audio/m4a">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 </body>
 </html>
